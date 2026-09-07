@@ -43,12 +43,19 @@ for the corresponding DTW-RL, MRHOF, or MMDEW build.
 
 ## Reproducibility Status
 
-The archived experiment materials do not contain the exact Contiki-NG
-Git commit, original project-conf.h, complete Cooja scenario files,
-random seeds, or original command line.
+This repository contains the archived source code, original project
+configuration, original Cooja simulation scenarios, changing mobility
+trajectories, experimental data, and analysis materials used in the
+DTW-RL evaluation.
 
-These missing details are documented transparently and are not
-reconstructed speculatively.
+The exact Contiki-NG Git commit, original random seeds, and original
+command-line execution record were not retained in the archived experiment.
+These limitations are reported transparently and are not reconstructed
+speculatively.
+
+The uploaded project, configuration, and simulation files are the original
+files used in the reported experiments. Users should review the configuration
+documentation and README before attempting to reproduce the experiments.
 
 ## License
 
