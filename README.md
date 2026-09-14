@@ -30,16 +30,11 @@ independently.
 | MRHOF baseline | Archived MRHOF objective-function source used in the baseline build  | [MRHOF.c ](https://drive.google.com/file/d/1HhwdBR-LgiEj56QoShjIl01Qc4UaVcfd/view?usp=sharing) |
 | MMDEW baseline | Archived MMDEW objective-function source used in the baseline build | [MMDEW.c ](https://drive.google.com/file/d/1W9cSmcpcvp1yYDWPhdzAzex2iOZ_dJn1/view?usp=sharing) |
 | Project configuration | Original `project-conf.h` and related compile-time configuration | [project-conf.h ](https://drive.google.com/file/d/1-Rx8EZkIiGFRKBbaebF3JDS5XP47BZkj/view?usp=sharing) |
-| Cooja scenarios | Original `.csc` simulation scenario files | **[ADD COOJA CSC LINK]** |
-| Mobility traces | Five changing-trajectory realizations for the two- and five-mobile-node configurations | **[ADD MOBILITY LINK]** |
-| Raw experiment logs | Raw CSV logs for MRHOF, MMDEW, and DTW-RL | **[ADD RAW LOG LINK]** |
-| Analysis code | Python and Colab code used to extract and summarize the logged metrics | **[ADD ANALYSIS CODE LINK]** |
-| Processed data | Per-run, per-node, and condition-level processed results | **[ADD PROCESSED DATA LINK]** |
-| Tables and figures | Final result tables and individual manuscript figures | **[ADD RESULTS LINK]** |
-| Run instructions | Commands, seeds, scenario mapping, and execution notes | **[ADD RUN INSTRUCTIONS LINK]** |
+| Cooja scenarios | Original `.csc` simulation scenario files | [.csc ](https://drive.google.com/drive/folders/1ok8TeLIQEzLOU9faPBDnCjfYJU5k8QqE?usp=sharing) |
+| Mobility traces | Five changing-trajectory realizations for the two- and five-mobile-node configurations | [ Mobility ](https://drive.google.com/drive/folders/1q85_vcWkfLZBBjuBSrDi2XlPAl3UYn46?usp=sharing) |
+| Raw experiment logs | Raw CSV logs for MRHOF, MMDEW, and DTW-RL | [ .CSV ](https://drive.google.com/drive/folders/14pdiVk-OeUFafvyLcmUqGIPNXtv-YINA?usp=sharing) |
 
-Replace every bold placeholder above with a public, read-only URL before citing
-this repository as the complete artifact package.
+
 
 ## Experimental Design
 
