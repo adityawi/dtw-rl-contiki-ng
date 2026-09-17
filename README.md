@@ -144,6 +144,11 @@ The available DTW-RL logs support extraction of:
 - convergence start/end events; and
 - preferred-parent assignment and change events.
 
+## Output
+
+[ Hasil Excel (Grafik) ](https://drive.google.com/drive/folders/1VD7tGVfYJuHEWDMPg58oXVHLzj-eIvAL?usp=sharing) |
+
+
 ## Reproducibility Status
 
 The uploaded project, configuration, scenario, mobility, source-code, and
