@@ -144,34 +144,6 @@ The available DTW-RL logs support extraction of:
 - convergence start/end events; and
 - preferred-parent assignment and change events.
 
-### Packet-delivery ratio
-
-For a multi-sender experiment, PDR is reconstructed from unique packet keys:
-
-```text
-PDR = unique packets received at the sink
-      ----------------------------------- × 100%
-      unique packets submitted by all non-sink nodes
-```
-
-Each packet is identified by `(source node, sequence number)`. The global PDR
-printed by the archived UDP server is retained only as diagnostic output because
-that server uses a single sequence tracker for multiple senders.
-
-### Handover normalization
-
-The supplied analysis reports recorded handovers and a diagnostic rate per 100
-DTW-RL controller-window updates. This diagnostic rate must not be described as
-handover per `rank_via_parent()` evaluation unless the timer-to-objective-
-function event coupling has been independently verified.
-
-### Energy
-
-Per-node energy is obtained from the latest cumulative `EN,TOTAL` record for
-each logged node. A sum that excludes the sink must be labelled as energy across
-logged non-sink nodes, not total energy across all simulated nodes. Window-level
-CPU-energy change does not isolate the execution cost of DTW-RL itself.
-
 ## Analysis Outputs
 
 The current five-run analysis produces:
