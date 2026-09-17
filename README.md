@@ -144,27 +144,6 @@ The available DTW-RL logs support extraction of:
 - convergence start/end events; and
 - preferred-parent assignment and change events.
 
-## Analysis Outputs
-
-The current five-run analysis produces:
-
-```text
-run_summary_valid_metrics.csv
-multirun_summary_mean_sd.csv
-node_delivery_all_runs.csv
-node_controller_all_runs.csv
-node_handover_all_runs.csv
-handover_events_all_runs.csv
-convergence_events_all_runs.csv
-convergence_pairs_all_runs.csv
-parent_change_events_all_runs.csv
-local_repair_events_all_runs.csv
-node_control_overhead_all_runs.csv
-node_energy_all_runs.csv
-validation_issues.csv
-metric_definitions.csv
-```
-
 ## Reproducibility Status
 
 The uploaded project, configuration, scenario, mobility, source-code, and
@@ -192,12 +171,8 @@ The current CSV logs do not independently establish:
 - parent-change opportunities;
 - packet loss specifically attributable to stale-parent periods;
 - radio duty cycle from raw CPU/LPM/TX/RX ticks;
-- CPU time or energy attributable only to DTW-RL;
-- firmware code size, static RAM, stack use, or instruction count; or
+- CPU time or energy attributable only to DTW-RL; or
 - performance on physical Zolertia Z1 devices.
-
-These measurements require additional instrumentation, compiled firmware
-artifacts, or controlled hardware validation.
 
 ## License
 
