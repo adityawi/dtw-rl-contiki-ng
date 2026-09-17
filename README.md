@@ -25,6 +25,7 @@ independently.
 | Material | Description | Access |
 |---|---|---|
 | Contiki-NG | Upstream Contiki-NG repository | [Contiki-NG](https://github.com/contiki-ng/contiki-ng) |
+| MSP430-gcc | Upstream Contiki-NG repository | [MSP430-gcc](https://drive.google.com/drive/folders/1lJPCmtHKlhq3ShD4c2bTx-ZxizaNWv3s?usp=sharing) |
 | Contiki-NG project archive | Original project files used for the reported experiments | [Contiki-NG DTW-RL](https://drive.google.com/drive/folders/1CUULWMXHz0nja5dL8iOZuV9uqTjWGDfP?usp=sharing)  |
 | DTW-RL source | DTW-RL controller and modified RPL Classic objective-function source | [DTW-RL.c ](https://drive.google.com/file/d/1HhwdBR-LgiEj56QoShjIl01Qc4UaVcfd/view?usp=sharing) |
 | MRHOF baseline | Archived MRHOF objective-function source used in the baseline build  | [MRHOF.c ](https://drive.google.com/file/d/1HhwdBR-LgiEj56QoShjIl01Qc4UaVcfd/view?usp=sharing) |
@@ -32,6 +33,7 @@ independently.
 | Project configuration | Original `project-conf.h` and related compile-time configuration | [project-conf.h ](https://drive.google.com/file/d/1-Rx8EZkIiGFRKBbaebF3JDS5XP47BZkj/view?usp=sharing) |
 | Cooja scenarios | Original `.csc` simulation scenario files | [.csc ](https://drive.google.com/drive/folders/1ok8TeLIQEzLOU9faPBDnCjfYJU5k8QqE?usp=sharing) |
 | Mobility traces | Five changing-trajectory realizations for the two- and five-mobile-node configurations | [ Mobility ](https://drive.google.com/drive/folders/1q85_vcWkfLZBBjuBSrDi2XlPAl3UYn46?usp=sharing) |
+| MetricLog | Grab data CSV logs for MRHOF, MMDEW, and DTW-RL | [ CodePython ](https://drive.google.com/drive/folders/1QQLl33agQ-Ywy8XNOHCKypPvvW4RaQTT?usp=sharing) |
 | Raw experiment logs | Raw CSV logs for MRHOF, MMDEW, and DTW-RL | [ .CSV ](https://drive.google.com/drive/folders/14pdiVk-OeUFafvyLcmUqGIPNXtv-YINA?usp=sharing) |
 
 
@@ -106,6 +108,13 @@ The DTW-RL application additionally requires the matching UDP client, UDP
 server, `project-conf.h`, and Cooja scenario used for the selected experimental
 condition.
 
+## Running Contiki-NG
+1. cd contiki-ng/
+2. cd tools/
+3. cd cooja/
+4. export PATH=/opt/mspgcc-4.7.3/bin:$PATH
+5. ./gradlew run
+
 ## Reproduction Workflow
 
 1. Obtain the Contiki-NG project archive and confirm the recorded version or
@@ -146,7 +155,7 @@ The available DTW-RL logs support extraction of:
 
 ## Output
 
-[ Hasil Excel (Grafik) ](https://drive.google.com/drive/folders/1VD7tGVfYJuHEWDMPg58oXVHLzj-eIvAL?usp=sharing) |
+[ Excel Results (Grafik) ](https://drive.google.com/drive/folders/1VD7tGVfYJuHEWDMPg58oXVHLzj-eIvAL?usp=sharing)
 
 
 ## Reproducibility Status
